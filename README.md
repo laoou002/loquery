@@ -1,5 +1,7 @@
 # JavaScript analysis of html tags and content extraction
 
+### Demo 
+
 ```typescript
 const LOQuery = require("../utils/loquery.js");
 
@@ -122,4 +124,15 @@ Page({
     console.log(res);
   },
 })
+```
+
+### Log
+```typescript
+let res = {
+      title: ["中国机长", "雪鹰领主第一季", "斗罗大陆"],
+      href: ["/tv/56356.html", "/tv/150549.html", "/tv/82721.html"],
+      img: ["https://pic.wujinimg.com/upload/vod/20211123-1/5a765b1f00f1fe163021d91c7d01c5f8.jpg","https://pic.wujinimg.com/upload/vod/20210927-1/912923505b4b01f7939c5455edcdfe30.jpg", "https://pic.monidai.com/img/202012111724382416672s.jpg"],
+      director: ["导演：刘伟强", "导演：刘炜", "导演：沈乐平"],
+      starring: ["主演：张涵予欧豪杜江袁泉张天爱","主演：郝祥海杨凝涂小鸦藤新林强李轻扬瞳音林帽帽张恩泽", "主演：沈磊程玉珠黄翔宇王肖兵倪康赵乾景吴磊张琦秦紫翼"]
+    }
 ```
